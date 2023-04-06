@@ -2,10 +2,10 @@ terraform {
   cloud {
     organization = "demo-user"
     workspaces {
-      name = "learn-terraform-module-use"
+      name = "ECS-using-Fargate-TF"
     }
   }
-  
+
   required_version = ">= 1.0"
 
   required_providers {
